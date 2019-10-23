@@ -1,0 +1,87 @@
+html{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #050A0D;
+  color: white;
+}
+
+h1, h2{
+font-family: 'Bree Serif', serif;
+
+}
+
+p{
+  font-weight: 100;
+}
+
+body{
+  margin: 0px;
+
+}
+
+header{
+  height: 100px;
+  width: 100%;
+  background-color: #656D73;
+  /*position: fixed;*/
+  padding:10px;
+}
+
+nav{
+  height:50px;
+  width: 100%;
+  display: flex;
+  background-color: #141F26;
+  justify-content: center; /* horizontal */
+
+}
+
+nav .button{
+  width: 120px;
+  height: 100%;
+  background-color: rgb(181, 19, 77);
+  margin:0px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+main{
+
+}
+
+.hero{
+  width: 100%;
+  min-height: 400px;
+  background: #243340;
+  justify-content: center; /* horizontal */
+}
+
+.content{
+  width: 70%;
+  margin: auto;
+  padding: 20px 0 20px;
+}
+
+.about{
+  min-height: 400px;
+  background-color: rgb(181, 19, 77);
+
+}
+
+.ticketInfo{
+  min-height: 400px;
+  background-color: #656D73;
+  justify-content: center; /* horizontal */
+}
+
+table{
+  width: 70%;
+  margin: auto;
+}
+
+
+footer{
+  width: 100%
+}
